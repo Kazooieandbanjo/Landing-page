@@ -4,5 +4,189 @@
 
 body {
     margin: 0;
+    font-size: 1.125rem;
 }
 
+header, footer, .hero {
+    background-color: #1f2937;
+    padding: .5em 0;
+    color: #FFF;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+/* commonly used*/
+
+.container {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+/*header*/
+
+.btn {
+    background-color: #3882f6;
+    color: #FFF;
+    text-decoration: none;
+    border-radius:  5px;
+    padding: .25em 1.25em;
+    font-size: 1rem;
+}
+
+.btn:hover,
+.btn:focus {
+    opacity: 75%;
+}
+
+.hero__title {
+    font-size: 2.7rem;
+    margin: 0;
+}
+
+.hero__text, .nav__link {
+    font-size: 1rem;
+    color: #e5e7eb;
+}
+
+.hero__text {
+    width: 60%;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 1.3rem;
+}
+
+.nav__list {
+    margin: 0 auto;
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.nav__link {
+    margin-right: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+.nav__link:hover,
+.nav__link:focus {
+    opacity: 75%;
+}
+
+/* cat information and cards */
+
+.cat-info {
+    color: #1f2937;
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;   
+}
+
+.image {
+    border: 5px solid #3882f6;
+}
+/* quote */
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 3em 0;
+    font-size: 2rem;
+    font-weight: lighter;
+
+}
+
+
+.quote--text {
+    width: 35%;
+
+}
+
+.quote--text--credit {
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+}
+
+.quote--text--credit::before {
+    content: "\2014"
+}
+
+/* call to action modal */
+
+.modal {
+  margin-top: 2em;
+  padding: 16px;
+
+
+  display: flex;
+  gap: 16px;
+  
+}
+    
+
+
+.modal__title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.modal__text {
+    margin-top: 0;
+}
+
+.modal-col {
+    color: #FFF;
+}
+
+.modal-container {
+    background-color: #3882f6;
+    border: 4px solid #3882f6;
+    border-radius:  5px;
+    margin: auto;
+    padding: 1em 6em;
+}
+
+.btn2 {
+    background-color: #3882f6;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius:  5px;
+    padding: .25em 1.25em;
+}
+
+.btn2:hover,
+.btn2:focus {
+    opacity: 75%;
+}
+
+/* footer */
+
+.footer {
+    padding: 2em 0;
+}
